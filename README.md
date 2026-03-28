@@ -1,6 +1,6 @@
 # Modelos Estocásticos para la Toma de Decisiones
 
-Este repositorio contiene los trabajos, tareas y proyectos realizados para la materia de **Modelos Estocásticos para la Toma de Decisiones**. El objetivo del curso es aplicar modelos probabilísticos y procesos aleatorios para analizar datos y fundamentar la toma de decisiones en entornos de incertidumbre.
+Este repositorio contiene los trabajos, tareas y proyectos realizados para la materia de **Modelos Estocásticos para la Toma de Decisiones**.
 
 ## Estructura del Proyecto
 
