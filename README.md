@@ -1,43 +1,69 @@
 # Modelos Estocásticos para la Toma de Decisiones
 
-Este repositorio contiene los trabajos, tareas y proyectos realizados para la materia de **Modelos Estocásticos para la Toma de Decisiones**.
+Repositorio de prácticas y proyectos desarrollados para la clase de Modelos Estocásticos.
 
-## Estructura del Proyecto
+### Índice de contenidos
+- [Práctica 1: Procesos Estocásticos](#práctica-1-procesos-estocásticos)
+- [Práctica 2: Cadenas de Markov](#práctica-2-cadenas-of-markov)
+- [Recursos y datos](#recursos-y-datos)
+- [Cómo ejecutar los notebooks](#cómo-ejecutar-los-notebooks)
+- [Estructura del repositorio](#estructura-del-repositorio)
 
-El repositorio se organiza por carpetas correspondientes a las tareas y ejemplos vistos en clase:
+---
 
-*   **tarea_01/**: Introducción a los procesos estocásticos.
-    *   `ejemplos_procesos_estocasticos.ipynb`: Notebook con la implementación de gráficas de rendimiento financiero y simulación de procesos de Markov.
-    *   `rendimiento_cetes.xlsx`: Datos históricos de rendimientos de CETES a 28 días (2003-2026).
+### Práctica 1: Procesos Estocásticos
+Implementación de ejemplos y simulaciones de procesos estocásticos, incluyendo análisis de rendimientos financieros y caminatas aleatorias.
 
-## Contenido de las Tareas
+[Ver carpeta tarea_01](./tarea_01/)
 
-### Tarea 1: Ejemplos de Procesos Estocásticos
+**Archivos:**
+- `ejemplos_procesos_estocasticos.ipynb` — Implementación de gráficas de rendimiento financiero y simulación de procesos de Markov.
+- `rendimiento_cetes.xlsx` — Datos históricos de rendimientos de CETES a 28 días (2003-2026).
 
-En esta primera entrega se exploran dos conceptos fundamentales:
+---
 
-1.  **Análisis de Datos Reales (CETES):**
-    *   Se procesan datos históricos de rendimientos de Certificados de la Tesorería (CETES) en México.
-    *   Visualización de la serie de tiempo para observar el comportamiento estocástico de las tasas a través de los años.
+### Práctica 2: Cadenas de Markov
+Introducción y resolución de problemas de Cadenas de Markov con estados discretos para la predicción de condiciones climáticas.
 
-2.  **Simulación de Procesos de Markov (Caminata Aleatoria):**
-    *   Implementación de una caminata aleatoria simple con probabilidad $p=0.5$ de aumento y $q=0.5$ de disminución.
-    *   Visualización de la evolución del proceso $X_n$ tras 10 pasos aleatorios partiendo de un estado inicial $X_0 = 0$.
+[Ver carpeta tarea_02](./tarea_02/)
 
-## Requisitos
+**Archivos:**
+- `introduccion_a_las_cadenas_de_markov.ipynb` — Resolución de problemas de probabilidad de transición y matrices en dos pasos ($P^2$).
 
-Para ejecutar los notebooks de este repositorio, se recomienda contar con un entorno de Python 3.x y las siguientes librerías:
+---
 
-*   `pandas`
-*   `numpy`
-*   `matplotlib`
-*   `openpyxl` (para la lectura de archivos Excel)
+### Recursos y datos
+- `rendimiento_cetes.xlsx`: Archivo de datos históricos para análisis financiero en la Práctica 1.
 
-Puedes instalarlas usando:
+---
 
-```bash
-pip install pandas numpy matplotlib openpyxl
+### Cómo ejecutar los notebooks
+1. Clona este repositorio o descarga el ZIP.
+2. Crea y activa un entorno (opcional pero recomendado), por ejemplo con conda o venv.
+3. Instala Jupyter y las dependencias necesarias:
+   ```bash
+   pip install pandas numpy matplotlib openpyxl
+   ```
+4. Inicia Jupyter Lab/Notebook:
+   ```bash
+   jupyter lab
+   ```
+5. Abre el notebook de interés dentro de la carpeta correspondiente y ejecuta las celdas.
+
+---
+
+### Estructura del repositorio
+```text
+ModelosEstocasticos/
+├── tarea_01/                       # Procesos Estocásticos (CETES, caminata aleatoria)
+├── tarea_02/                       # Cadenas de Markov (clima, matrices de transición)
+└── README.md
 ```
+
+### Notas
+- Los nombres de archivos y carpetas están organizados para mantener la secuencia de la materia.
+- Asegúrate de tener las librerías instaladas para evitar errores de importación al ejecutar las celdas de código.
+- Si encuentras algún error o falta de dependencias, por favor abre un issue o envía un PR.
 
 ---
 *Autor: Yael Gonzalez*
