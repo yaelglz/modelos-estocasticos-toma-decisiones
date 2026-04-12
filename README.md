@@ -4,7 +4,9 @@ Repositorio de prácticas y proyectos desarrollados para la clase de Modelos Est
 
 ### Índice de contenidos
 - [Práctica 1: Procesos Estocásticos](#práctica-1-procesos-estocásticos)
-- [Práctica 2: Cadenas de Markov](#práctica-2-cadenas-of-markov)
+- [Práctica 2: Cadenas de Markov](#práctica-2-cadenas-de-markov)
+- [Práctica 3: Predicción del Laberinto](#práctica-3-predicción-del-laberinto)
+- [Proyecto: Predicción del Clima](#proyecto-predicción-del-clima)
 - [Recursos y datos](#recursos-y-datos)
 - [Cómo ejecutar los notebooks](#cómo-ejecutar-los-notebooks)
 - [Estructura del repositorio](#estructura-del-repositorio)
@@ -29,6 +31,27 @@ Introducción y resolución de problemas de Cadenas de Markov con estados discre
 
 **Archivos:**
 - `introduccion_a_las_cadenas_de_markov.ipynb` — Resolución de problemas de probabilidad de transición y matrices en dos pasos ($P^2$).
+
+---
+
+### Práctica 3: Predicción del Laberinto
+Análisis y resolución de un laberinto mediante Cadenas de Markov, calculando tiempos esperados de absorción.
+
+[Ver carpeta tarea_03](./tarea_03/)
+
+**Archivos:**
+- `prediccion_del_laberinto.ipynb` — Implementación del modelo de absorción para encontrar la salida del laberinto.
+
+---
+
+### Proyecto: Predicción del Clima
+Desarrollo de un modelo predictivo para las condiciones climáticas en Seúl utilizando Cadenas de Markov.
+
+[Ver carpeta proyecto](./proyecto/)
+
+**Archivos:**
+- `prediccion_del_clima.ipynb` — Análisis de datos, matriz de transición y predicción de estados futuros.
+- `clima_seul.png` — Visualización de los resultados del modelo.
 
 ---
 
@@ -57,6 +80,8 @@ Introducción y resolución de problemas de Cadenas de Markov con estados discre
 ModelosEstocasticos/
 ├── tarea_01/                       # Procesos Estocásticos (CETES, caminata aleatoria)
 ├── tarea_02/                       # Cadenas de Markov (clima, matrices de transición)
+├── tarea_03/                       # Predicción del laberinto (absorción)
+├── proyecto/                       # Proyecto Final (clima de Seúl)
 └── README.md
 ```
 
