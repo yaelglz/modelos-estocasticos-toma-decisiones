@@ -6,6 +6,7 @@ Repositorio de prácticas y proyectos desarrollados para la clase de Modelos Est
 - [Práctica 1: Procesos Estocásticos](#práctica-1-procesos-estocásticos)
 - [Práctica 2: Cadenas de Markov](#práctica-2-cadenas-de-markov)
 - [Práctica 3: Predicción del Laberinto](#práctica-3-predicción-del-laberinto)
+- [Práctica 4: Distribución de Poisson](#práctica-4-distribución-de-poisson)
 - [Proyecto: Predicción del Clima](#proyecto-predicción-del-clima)
 - [Recursos y datos](#recursos-y-datos)
 - [Cómo ejecutar los notebooks](#cómo-ejecutar-los-notebooks)
@@ -41,6 +42,16 @@ Análisis y resolución de un laberinto mediante Cadenas de Markov, calculando t
 
 **Archivos:**
 - `prediccion_del_laberinto.ipynb` — Implementación del modelo de absorción para encontrar la salida del laberinto.
+
+---
+
+### Práctica 4: Distribución de Poisson
+Resolución de problemas de probabilidad utilizando la distribución de Poisson para modelar eventos en intervalos de tiempo o espacio.
+
+[Ver carpeta tarea_04](./tarea_04/)
+
+**Archivos:**
+- `distribucionPoisson.ipynb` — Cálculo de probabilidades para casos de una clínica veterinaria y un servicio de grúas.
 
 ---
 
@@ -81,6 +92,7 @@ ModelosEstocasticos/
 ├── tarea_01/                       # Procesos Estocásticos (CETES, caminata aleatoria)
 ├── tarea_02/                       # Cadenas de Markov (clima, matrices de transición)
 ├── tarea_03/                       # Predicción del laberinto (absorción)
+├── tarea_04/                       # Distribución de Poisson
 ├── proyecto/                       # Proyecto Final (clima de Seúl)
 └── README.md
 ```
