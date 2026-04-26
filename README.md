@@ -7,6 +7,7 @@ Repositorio de prácticas y proyectos desarrollados para la clase de Modelos Est
 - [Práctica 2: Cadenas de Markov](#práctica-2-cadenas-de-markov)
 - [Práctica 3: Predicción del Laberinto](#práctica-3-predicción-del-laberinto)
 - [Práctica 4: Distribución de Poisson](#práctica-4-distribución-de-poisson)
+- [Práctica 5: Regresión Polinomial](#práctica-5-regresión-polinomial)
 - [Proyecto: Predicción del Clima](#proyecto-predicción-del-clima)
 - [Recursos y datos](#recursos-y-datos)
 - [Cómo ejecutar los notebooks](#cómo-ejecutar-los-notebooks)
@@ -55,6 +56,16 @@ Resolución de problemas de probabilidad utilizando la distribución de Poisson 
 
 ---
 
+### Práctica 5: Regresión Polinomial
+Aplicación de modelos de regresión polinomial y múltiple para resolver problemas en diversas áreas como economía, salud, marketing y educación.
+
+[Ver carpeta tarea_05](./tarea_05/)
+
+**Archivos:**
+- `regresionPolinomial.ipynb` — Implementación de modelos con `scikit-learn`, incluyendo análisis de sensibilidad y optimización de variables.
+
+---
+
 ### Proyecto: Predicción del Clima
 Desarrollo de un modelo predictivo para las condiciones climáticas en Seúl utilizando Cadenas de Markov.
 
@@ -76,7 +87,7 @@ Desarrollo de un modelo predictivo para las condiciones climáticas en Seúl uti
 2. Crea y activa un entorno (opcional pero recomendado), por ejemplo con conda o venv.
 3. Instala Jupyter y las dependencias necesarias:
    ```bash
-   pip install pandas numpy matplotlib openpyxl
+   pip install pandas numpy matplotlib scikit-learn openpyxl
    ```
 4. Inicia Jupyter Lab/Notebook:
    ```bash
@@ -93,6 +104,7 @@ ModelosEstocasticos/
 ├── tarea_02/                       # Cadenas de Markov (clima, matrices de transición)
 ├── tarea_03/                       # Predicción del laberinto (absorción)
 ├── tarea_04/                       # Distribución de Poisson
+├── tarea_05/                       # Regresión Polinomial (múltiple y polinomial)
 ├── proyecto/                       # Proyecto Final (clima de Seúl)
 └── README.md
 ```
