@@ -8,6 +8,7 @@ Repositorio de prácticas y proyectos desarrollados para la clase de Modelos Est
 - [Práctica 3: Predicción del Laberinto](#práctica-3-predicción-del-laberinto)
 - [Práctica 4: Distribución de Poisson](#práctica-4-distribución-de-poisson)
 - [Práctica 5: Regresión Polinomial](#práctica-5-regresión-polinomial)
+- [Práctica 6: Regresión Múltiple](#práctica-6-regresión-múltiple)
 - [Proyecto: Predicción del Clima](#proyecto-predicción-del-clima)
 - [Recursos y datos](#recursos-y-datos)
 - [Cómo ejecutar los notebooks](#cómo-ejecutar-los-notebooks)
@@ -66,6 +67,16 @@ Aplicación de modelos de regresión polinomial y múltiple para resolver proble
 
 ---
 
+### Práctica 6: Regresión Múltiple
+Implementación de modelos de regresión lineal múltiple para la predicción de variables dependientes basadas en múltiples factores, aplicados a casos de economía, salud, marketing, educación y análisis inmobiliario.
+
+[Ver carpeta tarea_06](./tarea_06/)
+
+**Archivos:**
+- `regresionMultiple.ipynb` — Resolución de ejercicios de predicción utilizando `LinearRegression` de `scikit-learn`.
+
+---
+
 ### Proyecto: Predicción del Clima
 Desarrollo de un modelo predictivo para las condiciones climáticas en Seúl utilizando Cadenas de Markov.
 
@@ -105,7 +116,8 @@ ModelosEstocasticos/
 ├── tarea_03/                       # Predicción del laberinto (absorción)
 ├── tarea_04/                       # Distribución de Poisson
 ├── tarea_05/                       # Regresión Polinomial (múltiple y polinomial)
-├── proyecto/                       # Proyecto Final (clima de Seúl)
+├── tarea_06/                       # Regresión Múltiple
+├── proyecto/                       # Proyecto (clima de Seúl)
 └── README.md
 ```
 
